@@ -3,10 +3,11 @@ Python (v3.8) script to securely check if any list of passwords have been part o
 
 **RUN IMPLEMENTATION**
 1) Download single file
-2) Run following python command from the CLI (below example is for mac):
+2) Run following python command from the CLI (below example is for mac)
+3) Pass a list of passwords you want to check after the python script command
 
 **INPUT EXAMPLE:**
-(venv) Username@Users-MacBook-Air % python3 checkmypass.py password1 password2 ewraedfdfgdgh
+(venv) Username@Users-MacBook-Air % _python3 checkmypass.py password1 password2 ewraedfdfgdgh_
 
 Output will show either the number of times that password has appeared in a previous security hack:
 
